@@ -3,7 +3,7 @@ public class Main {
     SalesManager Manager1 = new SalesManager(new int[]{150, 200, 30,50,450});
     SalesManager Manager2 = new SalesManager (new int[]{50, 500, 20,100,380});
     SalesManager Manager3 = new SalesManager (new int[]{250, 20, 150,300,15});
-    System.out.println("Продажи (в тыс.руб.)");
+    System.out.println("Самая большая продажа за месяц по всем менеджерам отдела (в тыс.руб.): ");
     System.out.println ("Менеджер 1 : " + Manager1.max());
     System.out.println ("Менеджер 2 : " + Manager2.max());
     System.out.println ("Менеджер 3 : " + Manager3.max());
